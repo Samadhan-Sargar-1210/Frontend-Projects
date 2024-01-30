@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="Facebook Clone style.css">
+</head>
+<body>
+<!--------------------- Nav bar---------------------->    
+    <nav>
+
+        <div class="nav-left">
+            <a href="Facebook Clone.html">
+            <img src="./Images/logo.png" class="logo">
+            </a>
+            <ul>
+                <li><img src="./Images/notification.png"></li>
+                <li><img src="./Images/inbox.png"></li>
+                <li><img src="./Images/video.png"></li>
+            </ul>
+        </div>
+
+
+        <div class="nav-right">
+            <div class="search-box">
+                <img src="./Images/search.png">
+                <input type="text" placeholder="Search" >
+            </div>
+
+            <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+                <img src="./Images/profile-pic.png">
+            </div>
+        </div>
+<!------------------------ Setting Menu -------------------->
+        <div class="settings-menu">
+          
+            <div id="dark-btn" class="dark-btn-on">
+                 <span></span>
+            </div>
+
+
+            <div class="settings-menu-inner">
+                <div class="user-profile">
+                    <img src="./Images/profile-pic.png">
+                    <div>
+                        <p>Sagar Patil</p>
+                        <a href="Profile.html">See Your Profile</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="user-profile">
+                    <img src="./Images/feedback.png">
+                    <div>
+                        <p>Give Feedback</p>
+                        <a href="#"> Help us to improve new design</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="settings-links">
+                    <img src="./Images/setting.png" class="settings-icon">
+                    <a href="#">Setting % Privacy <img src="./Images/arrow.png" width="10px"></a>
+                </div>
+                <div class="settings-links">
+                    <img src="./Images/help.png" class="settings-icon">
+                    <a href="#">Help & Support <img src="./Images/arrow.png" width="10px"></a>
+                </div>
+                <div class="settings-links">
+                    <img src="./Images/display.png" class="settings-icon">
+                    <a href="#">Display & Accessibility<img src="./Images/arrow.png" width="10px"></a>
+                </div>
+                <div class="settings-links">
+                    <img src="./Images/logout.png" class="settings-icon">
+                    <a href="#">Logout<img src="./Images/arrow.png" width="10px"></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+<!----------------------Profile Page--------------------------->
+    <div class="profile-container">
+        <img src="./Images/cover.png" class="cover-img">
+        <div class="profile-details">
+            <div class="pd-left">
+                <div class="pd-row">
+                    <img src="./Images/profile.png" class="pd-img">
+                    <div>
+                        <h3>Sagar Patil</h3>
+                        <p>120 Friends - 20 Mutual</p>
+                        <img src="./Images/member-1.png">
+                        <img src="./Images/member-2.png">
+                        <img src="./Images/member-3.png">
+                        <img src="./Images/member-4.png">
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="pd-right">
+                <button type="button"><img src="./Images/add-friends.png">Friend</button>
+                <button type="button"><img src="./Images/message.png">Message</button>
+                <br>
+                <a href=""><img src="./Images/more.png"></a>
+            </div>
+        </div>
+
+        <div class="profile-info">
+            <div class="info-col">
+              <div class="profile-intro">
+                <h3>Intro</h3>
+                <p>Beleve in yourself and you can do unbelieveable things.</p>
+                <hr>
+                <ul>
+                   <li><img src="./Images/profile-job.png"> Director at 99media Ltd</li>
+                   <li><img src="./Images/profile-study.png"> Studied at Amity University</li>
+                   <li><img src="./Images/profile-study.png"> Went to DPS Delhi</li>
+                   <li><img src="./Images/profile-home.png">Lives in Bangalore</li>
+                   <li><img src="./Images/profile-location.png">From Bangalore, India</li>
+                </ul>
+              </div>
+
+              <div class="profile-intro">
+                <div class="title-box">
+                    <h3>Photos</h3>
+                    <a href="">All Photos</a>
+                </div>
+                <div class="photo-box">
+                     <div><img src="./Images/photo1.png"></div>
+                     <div><img src="./Images/photo2.png"></div>
+                     <div><img src="./Images/photo3.png"></div>
+                     <div><img src="./Images/photo4.png"></div>
+                     <div><img src="./Images/photo5.png"></div>
+                     <div><img src="./Images/photo6.png"></div>
+                     <div><img src="./Images/photo1.png"></div>
+                     <div><img src="./Images/photo2.png"></div>
+                     <div><img src="./Images/photo3.png"></div>
+                     <div><img src="./Images/photo4.png"></div>
+                     <div><img src="./Images/photo5.png"></div>
+                     <div><img src="./Images/photo6.png"></div>
+                     <div><img src="./Images/photo1.png"></div>
+                     <div><img src="./Images/photo2.png"></div>
+                     <div><img src="./Images/photo3.png"></div>
+                     <div><img src="./Images/photo4.png"></div>
+                     <div><img src="./Images/photo5.png"></div>
+                     <div><img src="./Images/photo6.png"></div>
+                </div>
+              </div>
+              
+
+              
+              <div class="profile-intro">
+                <div class="title-box">
+                    <h3>Frienda</h3>
+                    <a href="">All Friends</a>
+                </div>
+                <p>120 (10 Mutual)</p>
+                <div class="friends-box">
+                     <div><img src="./Images/member-1.png"><p>Swati P</p></div>
+                     <div><img src="./Images/member-2.png"><p>Samadhan S</p></div>
+                     <div><img src="./Images/member-3.png"><p>Pooja P</p></div>
+                     <div><img src="./Images/member-4.png"><p>Satish L</p></div>
+                     <div><img src="./Images/member-5.png"><p>Shreyash G</p></div>
+                     <div><img src="./Images/member-6.png"><p>Snehal P</p></div>
+                     <div><img src="./Images/member-7.png"><p>Shubham B</p></div>
+                     <div><img src="./Images/member-8.png"><p>Neha P</p></div>
+                     <div><img src="./Images/member-9.png"><p>Akash J</p></div>
+                     <div><img src="./Images/member-1.png"><p>Swati P</p></div>
+                     <div><img src="./Images/member-2.png"><p>Samadhan S</p></div>
+                     <div><img src="./Images/member-3.png"><p>Pooja P</p></div>
+                     <div><img src="./Images/member-4.png"><p>Satish L</p></div>
+                     <div><img src="./Images/member-5.png"><p>Shreyash G</p></div>
+                     <div><img src="./Images/member-6.png"><p>Snehal P</p></div>
+                     <div><img src="./Images/member-7.png"><p>Shubham B</p></div>
+                     <div><img src="./Images/member-8.png"><p>Neha P</p></div>
+                     <div><img src="./Images/member-9.png"><p>Akash J</p></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="post-col">
+                
+            <div class="write-post-container">
+                <div class="user-profile">
+                    <img src="./Images/profile-pic.png">
+                    <div>
+                        <p>Sagar Patil</p>
+                        <small>Public <i class="fa-solid fa-caret-down"></i></small>
+                    </div>
+                </div>
+
+                <div class="post-input-container">
+                    <textarea rows="3" placeholder="What's on your mind, Sagar?"></textarea>
+                    <div class="add-post-links">
+                        <a href="#"><img src="./Images/live-video.png">Live Video</a>
+                        <a href="#"><img src="./Images/photo.png">Photo/Video</a>
+                        <a href="#"><img src="./Images/feeling.png">Feeling Activity</a>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="./Images/profile-pic.png">
+                        <div>
+                            <p>Sagar Patil</p>
+                           <span>June 24 2023, 10:40 am</span>
+                        </div>
+                    </div>
+                        <a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                </div>
+
+                <p class="post-text">Subscribe <span>@Apna College</span> YouTube channel to watch more videos on website development and UI designs. <a href="#">#Apna Colllege</a>
+                    <a href="#">#YouTube Channel</a></p>
+                <img src="./Images/feed-image-1.png" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div>
+                            <img src="./Images/like-blue.png">120
+                        </div>
+
+                        <div>
+                            <img src="./Images/comments.png">50
+                        </div>
+
+                        <div>
+                            <img src="./Images/share.png">20
+                        </div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="./Images/profile-pic.png"> <i class="fa-solid fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="./Images/profile-pic.png">
+                        <div>
+                            <p>Sagar Patil</p>
+                           <span>June 24 2023, 10:40 am</span>
+                        </div>
+                    </div>
+                        <a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                </div>
+
+                <p class="post-text">Like and share this video with friends, tag <span>@Apna College</span> facebook page on your post. Ask your doubts in the comments <a href="#">#Apna Colllege</a>
+                    <a href="#">#YouTube Channel</a></p>
+                <img src="./Images/feed-image-2.png" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div>
+                            <img src="./Images/like.png">120
+                        </div>
+
+                        <div>
+                            <img src="./Images/comments.png">50
+                        </div>
+
+                        <div>
+                            <img src="./Images/share.png">20
+                        </div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="./Images/profile-pic.png"> <i class="fa-solid fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="./Images/profile-pic.png">
+                        <div>
+                            <p>Sagar Patil</p>
+                           <span>June 24 2023, 10:40 am</span>
+                        </div>
+                    </div>
+                        <a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                </div>
+
+                <p class="post-text">Subscribe <span>@Apna College</span> YouTube channel to watch more videos on website development and UI designs. <a href="#">#Apna Colllege</a>
+                    <a href="#">#YouTube Channel</a></p>
+                <img src="./Images/feed-image-3.png" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div>
+                            <img src="./Images/like-blue.png">120
+                        </div>
+
+                        <div>
+                            <img src="./Images/comments.png">50
+                        </div>
+
+                        <div>
+                            <img src="./Images/share.png">20
+                        </div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="./Images/profile-pic.png"> <i class="fa-solid fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="./Images/profile-pic.png">
+                        <div>
+                            <p>Sagar Patil</p>
+                           <span>June 24 2023, 10:40 am</span>
+                        </div>
+                    </div>
+                        <a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                </div>
+
+                <p class="post-text">Subscribe <span>@Apna College</span> YouTube channel to watch more videos on website development and UI designs. <a href="#">#Apna Colllege</a>
+                    <a href="#">#YouTube Channel</a></p>
+                <img src="./Images/feed-image-4.png" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div>
+                            <img src="./Images/like-blue.png">120
+                        </div>
+
+                        <div>
+                            <img src="./Images/comments.png">50
+                        </div>
+
+                        <div>
+                            <img src="./Images/share.png">20
+                        </div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="./Images/profile-pic.png"> <i class="fa-solid fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="./Images/profile-pic.png">
+                        <div>
+                            <p>Sagar Patil</p>
+                           <span>June 24 2023, 10:40 am</span>
+                        </div>
+                    </div>
+                        <a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                </div>
+
+                <p class="post-text">Subscribe <span>@Apna College</span> YouTube channel to watch more videos on website development and UI designs. <a href="#">#Apna Colllege</a>
+                    <a href="#">#YouTube Channel</a></p>
+                <img src="./Images/feed-image-5.png" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div>
+                            <img src="./Images/like-blue.png">120
+                        </div>
+
+                        <div>
+                            <img src="./Images/comments.png">50
+                        </div>
+
+                        <div>
+                            <img src="./Images/share.png">20
+                        </div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="./Images/profile-pic.png"> <i class="fa-solid fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="./Images/profile-pic.png">
+                        <div>
+                            <p>Sagar Patil</p>
+                           <span>June 24 2023, 10:40 am</span>
+                        </div>
+                    </div>
+                        <a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                </div>
+
+                <p class="post-text">Subscribe <span>@Apna College</span> YouTube channel to watch more videos on website development and UI designs. <a href="#">#Apna Colllege</a>
+                    <a href="#">#YouTube Channel</a></p>
+                <img src="./Images/feed-image-3.png" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div>
+                            <img src="./Images/like-blue.png">120
+                        </div>
+
+                        <div>
+                            <img src="./Images/comments.png">50
+                        </div>
+
+                        <div>
+                            <img src="./Images/share.png">20
+                        </div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="./Images/profile-pic.png"> <i class="fa-solid fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="./Images/profile-pic.png">
+                        <div>
+                            <p>Sagar Patil</p>
+                           <span>June 24 2023, 10:40 am</span>
+                        </div>
+                    </div>
+                        <a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                </div>
+
+                <p class="post-text">Subscribe <span>@Apna College</span> YouTube channel to watch more videos on website development and UI designs. <a href="#">#Apna Colllege</a>
+                    <a href="#">#YouTube Channel</a></p>
+                <img src="./Images/feed-image-1.png" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div>
+                            <img src="./Images/like-blue.png">120
+                        </div>
+
+                        <div>
+                            <img src="./Images/comments.png">50
+                        </div>
+
+                        <div>
+                            <img src="./Images/share.png">20
+                        </div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="./Images/profile-pic.png"> <i class="fa-solid fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="./Images/profile-pic.png">
+                        <div>
+                            <p>Sagar Patil</p>
+                           <span>June 24 2023, 10:40 am</span>
+                        </div>
+                    </div>
+                        <a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                </div>
+
+                <p class="post-text">Subscribe <span>@Apna College</span> YouTube channel to watch more videos on website development and UI designs. <a href="#">#Apna Colllege</a>
+                    <a href="#">#YouTube Channel</a></p>
+                <img src="./Images/feed-image-4.png" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div>
+                            <img src="./Images/like-blue.png">120
+                        </div>
+
+                        <div>
+                            <img src="./Images/comments.png">50
+                        </div>
+
+                        <div>
+                            <img src="./Images/share.png">20
+                        </div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="./Images/profile-pic.png"> <i class="fa-solid fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="./Images/profile-pic.png">
+                        <div>
+                            <p>Sagar Patil</p>
+                           <span>June 24 2023, 10:40 am</span>
+                        </div>
+                    </div>
+                        <a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                </div>
+
+                <p class="post-text">Subscribe <span>@Apna College</span> YouTube channel to watch more videos on website development and UI designs. <a href="#">#Apna Colllege</a>
+                    <a href="#">#YouTube Channel</a></p>
+                <img src="./Images/feed-image-3.png" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div>
+                            <img src="./Images/like-blue.png">120
+                        </div>
+
+                        <div>
+                            <img src="./Images/comments.png">50
+                        </div>
+
+                        <div>
+                            <img src="./Images/share.png">20
+                        </div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="./Images/profile-pic.png"> <i class="fa-solid fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="./Images/profile-pic.png">
+                        <div>
+                            <p>Sagar Patil</p>
+                           <span>June 24 2023, 10:40 am</span>
+                        </div>
+                    </div>
+                        <a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                </div>
+
+                <p class="post-text">Subscribe <span>@Apna College</span> YouTube channel to watch more videos on website development and UI designs. <a href="#">#Apna Colllege</a>
+                    <a href="#">#YouTube Channel</a></p>
+                <img src="./Images/feed-image-2.png" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div>
+                            <img src="./Images/like-blue.png">120
+                        </div>
+
+                        <div>
+                            <img src="./Images/comments.png">50
+                        </div>
+
+                        <div>
+                            <img src="./Images/share.png">20
+                        </div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="./Images/profile-pic.png"> <i class="fa-solid fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="./Images/profile-pic.png">
+                        <div>
+                            <p>Sagar Patil</p>
+                           <span>June 24 2023, 10:40 am</span>
+                        </div>
+                    </div>
+                        <a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                </div>
+
+                <p class="post-text">Subscribe <span>@Apna College</span> YouTube channel to watch more videos on website development and UI designs. <a href="#">#Apna Colllege</a>
+                    <a href="#">#YouTube Channel</a></p>
+                <img src="./Images/feed-image-1.png" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div>
+                            <img src="./Images/like-blue.png">120
+                        </div>
+
+                        <div>
+                            <img src="./Images/comments.png">50
+                        </div>
+
+                        <div>
+                            <img src="./Images/share.png">20
+                        </div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="./Images/profile-pic.png"> <i class="fa-solid fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">Copyright 2023 - Apna College YouTube Channel</div>
+
+
+    <script src="Facebook Clone app.js"></script>
+</body>
+</html>
